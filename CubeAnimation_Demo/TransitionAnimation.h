@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TransitionAnimation.h
 //  CubeAnimation_Demo
 //
 //  Created by zhiantech-007 on 2018/7/18.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface TransitionAnimation : NSObject<UIViewControllerAnimatedTransitioning>
 
+@property (nonatomic, assign) BOOL isBack;
 
 @end
-
