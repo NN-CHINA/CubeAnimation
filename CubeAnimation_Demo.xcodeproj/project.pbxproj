@@ -14,7 +14,7 @@
 		7E2C3A0520FEE0A400950A8B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2C3A0420FEE0A400950A8B /* main.m */; };
 		7E2C3A0D20FEE21200950A8B /* ForwardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2C3A0C20FEE21200950A8B /* ForwardViewController.m */; };
 		7E2C3A1020FEE2A100950A8B /* TransitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2C3A0F20FEE2A100950A8B /* TransitionAnimation.m */; };
-		7E2C3A1320FEE2B100950A8B /* UIView+CubicAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2C3A1120FEE2B100950A8B /* UIView+CubicAnimation.m */; };
+		7EDAD03C210184BC00D1B15B /* UIView+CubicAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDAD03B210184BC00D1B15B /* UIView+CubicAnimation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,8 +31,8 @@
 		7E2C3A0C20FEE21200950A8B /* ForwardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForwardViewController.m; sourceTree = "<group>"; };
 		7E2C3A0E20FEE2A100950A8B /* TransitionAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransitionAnimation.h; sourceTree = "<group>"; };
 		7E2C3A0F20FEE2A100950A8B /* TransitionAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransitionAnimation.m; sourceTree = "<group>"; };
-		7E2C3A1120FEE2B100950A8B /* UIView+CubicAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CubicAnimation.m"; sourceTree = "<group>"; };
-		7E2C3A1220FEE2B100950A8B /* UIView+CubicAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CubicAnimation.h"; sourceTree = "<group>"; };
+		7EDAD03A210184BC00D1B15B /* UIView+CubicAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CubicAnimation.h"; sourceTree = "<group>"; };
+		7EDAD03B210184BC00D1B15B /* UIView+CubicAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CubicAnimation.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +65,7 @@
 		7E2C39F420FEE09C00950A8B /* CubeAnimation_Demo */ = {
 			isa = PBXGroup;
 			children = (
+				7EDAD039210184BB00D1B15B /* CubeAnimation */,
 				7E2C39F520FEE09C00950A8B /* AppDelegate.h */,
 				7E2C39F620FEE09C00950A8B /* AppDelegate.m */,
 				7E2C39F820FEE09C00950A8B /* MainViewController.h */,
@@ -73,8 +74,6 @@
 				7E2C3A0C20FEE21200950A8B /* ForwardViewController.m */,
 				7E2C3A0E20FEE2A100950A8B /* TransitionAnimation.h */,
 				7E2C3A0F20FEE2A100950A8B /* TransitionAnimation.m */,
-				7E2C3A1220FEE2B100950A8B /* UIView+CubicAnimation.h */,
-				7E2C3A1120FEE2B100950A8B /* UIView+CubicAnimation.m */,
 				7E2C39FE20FEE0A400950A8B /* Assets.xcassets */,
 				7E2C3A0020FEE0A400950A8B /* LaunchScreen.storyboard */,
 				7E2C3A0320FEE0A400950A8B /* Info.plist */,
@@ -82,6 +81,15 @@
 			);
 			path = CubeAnimation_Demo;
 			sourceTree = "<group>";
+		};
+		7EDAD039210184BB00D1B15B /* CubeAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				7EDAD03A210184BC00D1B15B /* UIView+CubicAnimation.h */,
+				7EDAD03B210184BC00D1B15B /* UIView+CubicAnimation.m */,
+			);
+			path = CubeAnimation;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -152,7 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E2C3A1320FEE2B100950A8B /* UIView+CubicAnimation.m in Sources */,
+				7EDAD03C210184BC00D1B15B /* UIView+CubicAnimation.m in Sources */,
 				7E2C3A1020FEE2A100950A8B /* TransitionAnimation.m in Sources */,
 				7E2C39FA20FEE09C00950A8B /* MainViewController.m in Sources */,
 				7E2C3A0520FEE0A400950A8B /* main.m in Sources */,
